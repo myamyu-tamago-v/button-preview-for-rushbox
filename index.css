@@ -21,6 +21,16 @@ body {
     position: absolute;
     border-radius: 50%;
     opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button::after {
+    content: attr(id);
+    text-align: center;
+    color: #7dd329;
+    font-weight: bold;
 }
 
 /** ボタンを押したときのスタイル */
