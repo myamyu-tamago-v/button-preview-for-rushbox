@@ -18,6 +18,7 @@ body {
 }
 
 .button {
+    background-color: #333;
     position: absolute;
     border-radius: 50%;
     opacity: 0.8;
@@ -27,7 +28,7 @@ body {
 }
 
 .button::after {
-    content: attr(id);
+    /*content: attr(id);*/
     text-align: center;
     color: #7dd329;
     font-weight: bold;
